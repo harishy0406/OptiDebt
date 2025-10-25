@@ -15,7 +15,7 @@ export const ResultsDisplay = ({ results }: ResultsDisplayProps) => {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `₹{result.strategy}-repayment-schedule.csv`;
+    a.download = `${result.strategy}-repayment-schedule.csv`;
     a.click();
     window.URL.revokeObjectURL(url);
   };
