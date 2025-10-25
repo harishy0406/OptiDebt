@@ -102,7 +102,7 @@ export const DebtForm = ({ debts, setDebts, monthlyBudget, setMonthlyBudget }: D
       ))}
     </div>
 
-    {/* 🧮 Total Debt Summary */}
+    {/* Total Debt Summary */}
     <div className="flex items-center justify-between mt-3 p-3 border-t">
       <p className="text-sm font-medium text-muted-foreground">Total Debt:</p>
       <p className="text-base font-semibold">
