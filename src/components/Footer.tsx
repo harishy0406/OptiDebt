@@ -23,10 +23,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2">Created By</h4>
             <p className="text-sm text-muted-foreground">
-              [Your Name Here]
+              M Harish Gautham
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              [Your Email or Website]
+              work.harish77@gmail.com 
             </p>
           </div>
         </div>

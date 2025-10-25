@@ -75,34 +75,46 @@ export const DebtForm = ({ debts, setDebts, monthlyBudget, setMonthlyBudget }: D
         </div>
 
         {/* Existing Debts */}
-        {debts.length > 0 && (
-          <div className="space-y-2">
-            <h3 className="text-sm font-medium">Current Debts</h3>
-            <div className="space-y-2">
-              {debts.map((debt) => (
-                <div
-                  key={debt.id}
-                  className="flex items-center justify-between p-3 border rounded-lg bg-muted/50"
-                >
-                  <div className="flex-1">
-                    <p className="font-medium">{debt.name}</p>
-                    <p className="text-sm text-muted-foreground">
-                      ₹{debt.balance.toFixed(2)} @ {debt.interestRate}% APR | 
-                      Min: ₹{debt.minimumPayment.toFixed(2)}
-                    </p>
-                  </div>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => removeDebt(debt.id)}
-                  >
-                    <Trash2 className="h-4 w-4 text-destructive" />
-                  </Button>
-                </div>
-              ))}
-            </div>
+{debts.length > 0 && (
+  <div className="space-y-2">
+    <h3 className="text-sm font-medium">Current Debts</h3>
+    <div className="space-y-2">
+      {debts.map((debt) => (
+        <div
+          key={debt.id}
+          className="flex items-center justify-between p-3 border rounded-lg bg-muted/50"
+        >
+          <div className="flex-1">
+            <p className="font-medium">{debt.name}</p>
+            <p className="text-sm text-muted-foreground">
+              ₹{debt.balance.toFixed(2)} @ {debt.interestRate}% APR | 
+              Min: ₹{debt.minimumPayment.toFixed(2)}
+            </p>
           </div>
-        )}
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => removeDebt(debt.id)}
+          >
+            <Trash2 className="h-4 w-4 text-destructive" />
+          </Button>
+        </div>
+      ))}
+    </div>
+
+    {/* 🧮 Total Debt Summary */}
+    <div className="flex items-center justify-between mt-3 p-3 border-t">
+      <p className="text-sm font-medium text-muted-foreground">Total Debt:</p>
+      <p className="text-base font-semibold">
+        ₹
+        {debts
+          .reduce((total, debt) => total + debt.balance, 0)
+          .toFixed(2)}
+      </p>
+    </div>
+  </div>
+)}
+
 
         {/* Add New Debt */}
         <div className="space-y-3 pt-4 border-t">
