@@ -55,15 +55,25 @@ It empowers users to **visualize debt progress**, compare repayment strategies (
 
 ```
 OptiDebt/
-│── index.html
-│── style.css
-│── script.js
-│── /assets
-│   ├── icons/
-│   └── screenshots/
-│── /optimization
-│   └── lp_model.py
-│── README.md
+├── README.md
+├── index.html
+├── vite-config.ts                   
+├── public/                 
+└── src/                    
+    ├── components/         
+    │   ├── ui/             
+    │   ├── DebtAmortizationChart.tsx
+    │   ├── DebtForm.tsx
+    │   ├── Footer.tsx
+    │   ├── ... (other chart components)
+    │   └── StrategySelector.tsx
+    ├── hooks/              
+    ├── lib/                
+    ├── pages/              
+    ├── types/              
+    ├── App.tsx             
+    ├── main.tsx
+    └── App.css
 ```
 
 ---
@@ -160,3 +170,4 @@ Use them in README like:
 
 Happy Coding ✨  
 Feel free to ⭐ the repo if you like it!
+
