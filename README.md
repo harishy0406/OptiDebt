@@ -1,4 +1,4 @@
-
+# 📌 OptiDebt — Smart Debt Repayment Planner
 
 OptiDebt is a personal finance tool designed to help individuals **pay off their debts faster and smarter**. Instead of simply tracking expenses, OptiDebt **calculates the optimal repayment distribution** across multiple debts to minimize total interest and reduce repayment time.
 
@@ -170,5 +170,6 @@ Use them in README like:
 
 Happy Coding ✨  
 Feel free to ⭐ the repo if you like it!
+
 
 
