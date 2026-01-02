@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { StrategyResult } from "@/types/debt";
 import { Download } from "lucide-react";
 import { exportToCSV } from "@/lib/debtOptimizer";
-
 interface ResultsDisplayProps {
   results: StrategyResult[];
 }
