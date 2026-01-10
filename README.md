@@ -96,11 +96,9 @@ python optimization/lp_model.py
 
 ## 📸 Screenshots & UI Preview
 
-> Add your images inside `/assets/screenshots`
-
 | Dashboard | Repayment Planner | Charts |
 |---|---|---|
-| ![Dashboard](assets/screenshots/dashboard.png) | ![Planner](assets/screenshots/planner.png) | ![Charts](assets/screenshots/charts.png) |
+| <img width="1309" height="837" alt="image" src="https://github.com/user-attachments/assets/609140a2-18a2-4a52-b45c-35eeebf36e27" /> | <img width="880" height="693" alt="image" src="https://github.com/user-attachments/assets/3d2d90a7-3d61-4067-8d37-2bf31d87b8fd" /> | <img width="916" height="779" alt="image" src="https://github.com/user-attachments/assets/ed49756c-9d70-4cee-a011-0e867633c6f0" />|
 
 ### 🎥 Demo Video (Optional)
 📎 *Upload video link here*
@@ -171,6 +169,7 @@ Use them in README like:
 
 Happy Coding ✨  
 Feel free to ⭐ the repo if you like it!
+
 
 
 
