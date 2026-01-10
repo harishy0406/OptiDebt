@@ -36,7 +36,7 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} OptiDebt. All rights reserved.</p>
           <p className="text-xs">
-            Built with React, TypeScript, and Recharts
+            Built with React, TypeScript, and Recharts.
           </p>
         </div>
       </div>
