@@ -84,6 +84,7 @@ OptiDebt/
 1. Download the project / `git clone`
 2. Open `index.html` in a browser
 3. Enter debts, budget & view repayment suggestions
+4. In terminal, type npm run dev
 
 ### ✅ Run LP Optimization Script (Optional)
 ```bash
