@@ -102,6 +102,7 @@ python optimization/lp_model.py
 
 ### 🎥 Demo Video (Optional)
 📎 *Video here*
+![image](https://github.com/harishy0406/OptiDebt/blob/main/Recording%20OptiDebt.gif)
 
 ---
 
@@ -169,6 +170,7 @@ Use them in README like:
 
 Happy Coding ✨  
 Feel free to ⭐ the repo if you like it!
+
 
 
 
